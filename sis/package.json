@@ -2,7 +2,7 @@
   "name": "node-template",
   "version": "0.0.1",
   "description": "sis CLI",
-  "private": true,
+  "private": false,
   "bin": {
     "sis": "bin/sis"
   },
