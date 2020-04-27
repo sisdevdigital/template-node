@@ -1,8 +1,9 @@
 {
   "name": "template-node-beta",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "sis CLI",
   "private": false,
+  "author": "Felps03, brunass",
   "bin": {
     "sis": "bin/sis"
   },

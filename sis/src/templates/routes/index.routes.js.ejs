@@ -1,0 +1,10 @@
+import { Router } from 'express'
+
+import health from './health.routes'
+
+module.exports = server => {
+  server.use((req, res, next) => {
+    health(server, new Router())
+    next()
+  })
+}

@@ -2,24 +2,20 @@
 
 A CLI for sis.
 
-## Customizing your CLI
+## How to Use
 
-Check out the documentation at https://github.com/infinitered/gluegun/tree/master/docs.
+First we need to install the lib:
 
-## Publishing to NPM
+```
+npm i -g template-node-beta
+```
 
-To package your CLI up for NPM, do this:
+Than to install the folder structure of a NodeJS project, just run the command down below in your favorite folder:
 
-```shell
-$ npm login
-$ npm whoami
-$ npm lint
-$ npm test
-(if typescript, run `npm run build` here)
-$ npm publish
+```
+sis node
 ```
 
 # License
 
 MIT - see LICENSE
-
