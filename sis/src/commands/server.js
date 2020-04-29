@@ -156,6 +156,10 @@ module.exports = {
       template: 'root_files/jest.config.js.ejs',
       target: `${SERVER}/jest.config.js`
     })
+    await template.generate({
+      template: 'root_files/.babelrc.ejs',
+      target: `${SERVER}/.babelrc`
+    })
 
     await template.generate({
       template: 'root_files/nodemon.json.ejs',

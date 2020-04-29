@@ -18,7 +18,7 @@ Next:
   $ npm test
   $ npm link
   $ sis -v
-  $ sis
+  $ sis node
 ```
 
 ### Testando
