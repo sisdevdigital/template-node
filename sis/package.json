@@ -1,6 +1,6 @@
 {
-  "name": "template-node-beta",
-  "version": "0.0.2",
+  "name": "template-node",
+  "version": "0.0.3",
   "description": "sis CLI",
   "private": false,
   "author": "Felps03, brunass",
