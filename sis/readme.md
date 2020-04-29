@@ -7,7 +7,7 @@ A CLI for sis.
 First we need to install the lib:
 
 ```
-npm i -g template-node-beta
+npm i -g template-node
 ```
 
 Than to install the folder structure of a NodeJS project, just run the command down below in your favorite folder:
