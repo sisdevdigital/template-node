@@ -1,11 +1,10 @@
-FROM node:10.12.0-slim
+FROM node:10.15.3-slim
 LABEL MAINTAINER="Felipe Santos - @felps03 | Bruna Santos - @brunass"
 ENV PORT=3333
 ENV NODE_ENV=dev
 
-COPY . /src
-WORKDIR /src
+COPY package*.json ./
 
-RUN npm config set strict-ssl false && npm ci 
+RUN npm install
 EXPOSE $PORT
 CMD npm start
