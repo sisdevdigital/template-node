@@ -25,6 +25,15 @@ Next:
 
 `npm test`
 
+### Docker
+```
+docker build -t template/node-web-app .
+```
+
+```
+docker run -p 3333:3333 -d template/node-web-app
+```
+
 ## Project Structure
 
 ```
