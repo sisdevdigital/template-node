@@ -134,5 +134,9 @@ module.exports = [
   {
     "template": "root_files/README.md.ejs",
     "target": "server/README.md"
-  }
+  },
+  {
+    "template": ".gitkeep.ejs",
+    "target": "server/src/repository/.gitkeep"
+  },
 ]
